@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F7C3F323DF99E0003402DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C3F223DF99E0003402DA /* AppDelegate.swift */; };
+		00F7C3F523DF99E0003402DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C3F423DF99E0003402DA /* SceneDelegate.swift */; };
+		00F7C3FA23DF99E0003402DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F7C3F823DF99E0003402DA /* Main.storyboard */; };
+		00F7C3FC23DF99E2003402DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F7C3FB23DF99E2003402DA /* Assets.xcassets */; };
+		00F7C3FF23DF99E2003402DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F7C3FD23DF99E2003402DA /* LaunchScreen.storyboard */; };
+		00F7C40723DF9A56003402DA /* VeiculosCadastradosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C40623DF9A56003402DA /* VeiculosCadastradosTableViewController.swift */; };
+		00F7C40923DF9BA9003402DA /* Veiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C40823DF9BA9003402DA /* Veiculo.swift */; };
+		00F7C40B23DF9E0D003402DA /* Opcionais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C40A23DF9E0D003402DA /* Opcionais.swift */; };
+		00F7C40D23DF9F20003402DA /* CadastrarVeiculosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7C40C23DF9F20003402DA /* CadastrarVeiculosViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F7C3EF23DF99E0003402DA /* cadastroVeiculo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cadastroVeiculo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F7C3F223DF99E0003402DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F7C3F423DF99E0003402DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00F7C3F923DF99E0003402DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F7C3FB23DF99E2003402DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F7C3FE23DF99E2003402DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F7C40023DF99E2003402DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F7C40623DF9A56003402DA /* VeiculosCadastradosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeiculosCadastradosTableViewController.swift; sourceTree = "<group>"; };
+		00F7C40823DF9BA9003402DA /* Veiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veiculo.swift; sourceTree = "<group>"; };
+		00F7C40A23DF9E0D003402DA /* Opcionais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opcionais.swift; sourceTree = "<group>"; };
+		00F7C40C23DF9F20003402DA /* CadastrarVeiculosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarVeiculosViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F7C3EC23DF99E0003402DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009428FC23E0A68500495440 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00F7C40623DF9A56003402DA /* VeiculosCadastradosTableViewController.swift */,
+				00F7C40C23DF9F20003402DA /* CadastrarVeiculosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		009428FD23E0A69100495440 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00F7C40A23DF9E0D003402DA /* Opcionais.swift */,
+				00F7C40823DF9BA9003402DA /* Veiculo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		009428FE23E0A6A200495440 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00F7C3FD23DF99E2003402DA /* LaunchScreen.storyboard */,
+				00F7C3F823DF99E0003402DA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00F7C3E623DF99E0003402DA = {
+			isa = PBXGroup;
+			children = (
+				00F7C3F123DF99E0003402DA /* cadastroVeiculo */,
+				00F7C3F023DF99E0003402DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F7C3F023DF99E0003402DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F7C3EF23DF99E0003402DA /* cadastroVeiculo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F7C3F123DF99E0003402DA /* cadastroVeiculo */ = {
+			isa = PBXGroup;
+			children = (
+				009428FE23E0A6A200495440 /* View */,
+				009428FD23E0A69100495440 /* Model */,
+				009428FC23E0A68500495440 /* Controller */,
+				00F7C3F223DF99E0003402DA /* AppDelegate.swift */,
+				00F7C3F423DF99E0003402DA /* SceneDelegate.swift */,
+				00F7C3FB23DF99E2003402DA /* Assets.xcassets */,
+				00F7C40023DF99E2003402DA /* Info.plist */,
+			);
+			path = cadastroVeiculo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F7C3EE23DF99E0003402DA /* cadastroVeiculo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F7C40323DF99E2003402DA /* Build configuration list for PBXNativeTarget "cadastroVeiculo" */;
+			buildPhases = (
+				00F7C3EB23DF99E0003402DA /* Sources */,
+				00F7C3EC23DF99E0003402DA /* Frameworks */,
+				00F7C3ED23DF99E0003402DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cadastroVeiculo;
+			productName = cadastroVeiculo;
+			productReference = 00F7C3EF23DF99E0003402DA /* cadastroVeiculo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F7C3E723DF99E0003402DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vicente Patricio";
+				TargetAttributes = {
+					00F7C3EE23DF99E0003402DA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 00F7C3EA23DF99E0003402DA /* Build configuration list for PBXProject "cadastroVeiculo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F7C3E623DF99E0003402DA;
+			productRefGroup = 00F7C3F023DF99E0003402DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F7C3EE23DF99E0003402DA /* cadastroVeiculo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F7C3ED23DF99E0003402DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F7C3FF23DF99E2003402DA /* LaunchScreen.storyboard in Resources */,
+				00F7C3FC23DF99E2003402DA /* Assets.xcassets in Resources */,
+				00F7C3FA23DF99E0003402DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F7C3EB23DF99E0003402DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F7C40D23DF9F20003402DA /* CadastrarVeiculosViewController.swift in Sources */,
+				00F7C40723DF9A56003402DA /* VeiculosCadastradosTableViewController.swift in Sources */,
+				00F7C3F323DF99E0003402DA /* AppDelegate.swift in Sources */,
+				00F7C40B23DF9E0D003402DA /* Opcionais.swift in Sources */,
+				00F7C3F523DF99E0003402DA /* SceneDelegate.swift in Sources */,
+				00F7C40923DF9BA9003402DA /* Veiculo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F7C3F823DF99E0003402DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F7C3F923DF99E0003402DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F7C3FD23DF99E2003402DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F7C3FE23DF99E2003402DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F7C40123DF99E2003402DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00F7C40223DF99E2003402DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F7C40423DF99E2003402DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cadastroVeiculo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.clovis.cadastroVeiculo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00F7C40523DF99E2003402DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cadastroVeiculo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.clovis.cadastroVeiculo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F7C3EA23DF99E0003402DA /* Build configuration list for PBXProject "cadastroVeiculo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F7C40123DF99E2003402DA /* Debug */,
+				00F7C40223DF99E2003402DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F7C40323DF99E2003402DA /* Build configuration list for PBXNativeTarget "cadastroVeiculo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F7C40423DF99E2003402DA /* Debug */,
+				00F7C40523DF99E2003402DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F7C3E723DF99E0003402DA /* Project object */;
+}
